@@ -1,0 +1,17 @@
+{
+    "name": "angelogouvea/php-moderno",
+    "description": "Projeto area adiministrativa para laboratorio de protese dentacria!",
+    "require": {
+        "twig/twig": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        },
+        "files":[
+            "app/Config/Config.php",
+            "app/Functions/Global.php"
+        ]
+    }
+    
+}
